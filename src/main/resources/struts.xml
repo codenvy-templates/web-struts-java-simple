@@ -6,7 +6,7 @@
 <struts>
     <constant name="struts.devMode" value="true"/>
     <package name="default" namespace="/" extends="struts-default">
-        <action name="hello" class="com.codenvy.HelloWorld" method="execute">
+        <action name="hello" class="com.codenvy.example.struts.HelloWorld" method="execute">
             <result name="SUCCESS">/success.jsp</result>
         </action>
     </package>
